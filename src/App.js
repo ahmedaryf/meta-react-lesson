@@ -14,7 +14,7 @@ function App() {
     <div>
       <div><Nav /></div>
       <div><Promo /></div>
-      <div><Intro1 /></div>
+      <div><Intro1 name="John" textColor="purple" text="Hello world recieved from props"/></div>
       <div><Intro2 /></div>
       <div><Intro3 /></div>
       <div><Footer /></div>

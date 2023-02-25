@@ -1,9 +1,12 @@
-function Intro1() {
+function Intro1(props) {
+    const color = {
+        color: props.textColor
+    }
      return (
             <div className="blog-post-intro">
-                <h2>I've become a React developer!</h2>
+                <h2 style={color}>I've become a React developer! {props.name}</h2>
                 <div>
-                    <p>I've completed the React Basics course and I'm happy to announce that I'm now a Junior React Developer!</p>
+                    <p>{props.text}</p>
                     <p className="link">Read more...</p>
                 </div>
             </div>
