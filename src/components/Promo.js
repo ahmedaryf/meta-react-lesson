@@ -2,7 +2,7 @@ function Promo(){
     return (
         <div className="promo-selection">
             <div>
-                <h1>Don't miss the deal!!</h1>
+                <h1 style={{color: "purple", textAlign: "center"}}>Don't miss the deal!!</h1>
             </div>
             <div>
                 <h2>Subscribe to my newsletter and get all the shop items at 50% off!</h2>
