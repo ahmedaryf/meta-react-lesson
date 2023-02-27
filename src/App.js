@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
+import Btn from './components/Btns';
 import Footer from './components/Footer';
 import Intro1 from './components/Intro1';
 import Nav from './components/nav';
@@ -9,6 +10,10 @@ import Intro from './Intro';
 
 
 function App() {
+  const [count, setCount] = useState(0);
+  function handleClick(){
+    setCount(count + 1);
+  }
   return (
     <div>
       <div><Nav /></div>
@@ -23,6 +28,11 @@ function App() {
 
       <div><Intro color="#eeeeff" compHeading="Why I love front-end web development" compText="In this blog post, I'll list 10 reasons why I love to work as a front-end developer." /></div>
 </div>
+  <div>
+    <h5>Count: {count}</h5>
+    <Btn onClick={handleClick} lable="Click this button"/>
+  </div>
+
       <div><Footer /></div>
 
        

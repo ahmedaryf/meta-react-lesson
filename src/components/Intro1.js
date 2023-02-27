@@ -1,4 +1,4 @@
-function Intro1(props) {
+const Intro1 = (props) => {
     const color1 = {
         color: props.textColor,
         fontWeight: 900,

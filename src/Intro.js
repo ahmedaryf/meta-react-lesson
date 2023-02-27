@@ -1,4 +1,4 @@
-function Intro(props) {
+const Intro = (props) => {
     const stl = {
         backgroundColor: props.color
     }
@@ -7,6 +7,7 @@ function Intro(props) {
             <h2>{props.compHeading}</h2>
             <div>
                 <p>{props.compText}</p>
+                <h5>{Math.floor(Math.random() * 10) + 2}</h5>
                 <p className="link">Read more...</p>
             </div>
         </div>
