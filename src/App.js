@@ -7,6 +7,7 @@ import Intro1 from './components/Intro1';
 import Nav from './components/nav';
 import Promo from './components/Promo';
 import Intro from './Intro';
+import ModeTogle from './ModeTogler';
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
     <h5>Count: {count}</h5>
     <Btn onClick={handleClick} lable="Click this button"/>
   </div>
-
+    <br />
+    <ModeTogle />
       <div><Footer /></div>
 
        

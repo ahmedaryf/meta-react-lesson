@@ -2,7 +2,7 @@ function Btn(props) {
     
     return ( 
         <div>
-            <button onClick={props.onClick}>{props.lable}</button>
+            <button type="button" onClick={props.onClick}>{props.lable}</button>
         </div>
      );
 }
