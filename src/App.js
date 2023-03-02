@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import './App.css';
 import Btn from './components/Btns';
 import Footer from './components/Footer';
+import InputComponent from './components/InputComponent';
 import Intro1 from './components/Intro1';
 import Nav from './components/nav';
 import Promo from './components/Promo';
@@ -35,6 +36,8 @@ function App() {
   </div>
     <br />
     <ModeTogle />
+    <br />
+    <InputComponent />
       <div><Footer /></div>
 
        
