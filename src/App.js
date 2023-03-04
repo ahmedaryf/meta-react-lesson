@@ -8,6 +8,7 @@ import Intro1 from './components/Intro1';
 import Nav from './components/nav';
 import Promo from './components/Promo';
 import TestStateComponent from './components/TestStateComponent';
+import TestTextComponent from './components/TestTextComponent';
 import Intro from './Intro';
 import ModeTogle from './ModeTogler';
 
@@ -41,6 +42,8 @@ function App() {
     <InputComponent />
     <br />
     <TestStateComponent />
+    <br />
+    <TestTextComponent />
       <div><Footer /></div>
 
        

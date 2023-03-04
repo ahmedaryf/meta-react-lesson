@@ -13,7 +13,7 @@ function ModeTogle() {
         }
     return ( 
         <div style={{border:"2px red solid", margin:"10px", padding:"10px"}}>
-            {darkMode ? darkMode1 : lightMode1};
+            {darkMode ? darkMode1 : lightMode1}
             <button onClick={toggler}>Mode Toggler</button>
         </div>
      );
