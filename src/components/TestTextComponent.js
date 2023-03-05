@@ -5,7 +5,7 @@ function TestTextComponent() {
     const [text, setText] = useState("Test");
 
     function textUpdate(){
-        setText("New Text");
+        setText(() =>  "Updated text");
     }
     return ( 
         <div style={{border:"2px purple solid", margin:"10px", padding:"10px"}}>
