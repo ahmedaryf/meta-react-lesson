@@ -7,9 +7,14 @@ function TestTextComponent() {
     function textUpdate(){
         setText(() =>  "Updated text");
     }
+    let tt = setInterval(function(){
+        return "hello"
+    }, 5000)
     return ( 
         <div style={{border:"2px purple solid", margin:"10px", padding:"10px"}}>
             <div>
+               
+                <h3>{tt}</h3>
                 <h3>{new Date().toLocaleTimeString()}</h3>
                 <h3>{new Date().toLocaleDateString()}</h3>
                 <h3>{new Date().toLocaleString()}</h3>
