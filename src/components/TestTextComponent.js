@@ -8,7 +8,7 @@ function TestTextComponent() {
         setText(() =>  "Updated text");
     }
     return ( 
-        <div style={{border:"2px purple solid", margin:"10px", padding:"10px"}}>
+        <div style={{border: "2px purple solid", margin: "10px", padding: "10px"}}>
             <div>
 
                 <h3>{new Date().toLocaleTimeString()}</h3>

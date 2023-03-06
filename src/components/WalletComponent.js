@@ -15,8 +15,8 @@ function WalletComponent() {
         <div style={{border:"2px orange solid", margin:"10px", padding:"10px", color: colorUpdate}}>
             <h1>Wallet: {state.money}</h1>
             <div>
-                <button style={{backgroundColor: "green", padding: "2px 5px", color: "#ffffff", marginRight: "3px"}} onClick={() => dispatch({type: "ride"})}>New customer</button>
-                <button style={{backgroundColor: "red", padding: "2px 5px", color: "#ffffff", marginLeft: "3px"}} onClick={() => dispatch({type: "fuel"})}>Refill</button>
+                <button style={{backgroundColor: "green", padding: "5px 10px", color: "#ffffff", marginRight: "3px", borderRadius: "5px"}} onClick={() => dispatch({type: "ride"})}>New customer</button>
+                <button style={{backgroundColor: "red", padding: "5px 10px", color: "#ffffff", marginLeft: "3px", borderRadius: "5px"}} onClick={() => dispatch({type: "fuel"})}>Refill</button>
             </div>
         </div>
      );

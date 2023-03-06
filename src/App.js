@@ -2,6 +2,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import Btn from './components/Btns';
+import DarkMode from './components/DarkMode';
 import Footer from './components/Footer';
 import InputComponent from './components/InputComponent';
 import Intro1 from './components/Intro1';
@@ -38,6 +39,8 @@ function App() {
     <h5>Count: {count}</h5>
     <Btn onClick={handleClick} lable="Click this button"/>
   </div>
+    <br />
+    <DarkMode />
     <br />
     <ModeTogle />
     <br />
