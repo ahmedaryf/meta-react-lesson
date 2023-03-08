@@ -77,11 +77,13 @@
 .App-light {
   background-color: #ffffff;
   color: #000000;
+  transition: all 1s;
 }
 
 .App-dark {
   background-color: #000000;
   color: #ffffff;
+  transition: all 1s;
 }
 button{
   cursor: pointer;
@@ -89,4 +91,15 @@ button{
 button:hover{
   color: #ffffff;
   background-color: #000000;
+}
+.card{
+  width: 150px;
+  min-height: 200px;
+  border: 2px solid #999999;
+  padding: 10px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+.card img{
+  border-radius: 50%;
 }
