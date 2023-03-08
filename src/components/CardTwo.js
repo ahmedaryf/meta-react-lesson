@@ -1,8 +1,8 @@
-import Profile from "./Profile";
-function CardTwo({width, height}) {
+
+function CardTwo({children}) {
     return (
-        <div>
-            <Profile width={width} height={height}/>
+        <div className="cardTwo">
+            {children}
         </div>
     ) ;
 }

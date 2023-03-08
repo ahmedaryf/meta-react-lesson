@@ -19,6 +19,8 @@ import ModeTogle from './ModeTogler';
 import image from "./images/keyodhoo-drone-13-7-m.jpg"
 import image2 from "./images/underwater1-m.jpg"
 import CardTwo from './components/CardTwo';
+import CardText from './components/CardText';
+import TodoList from './components/TodoList';
 
 
 function App() {
@@ -66,12 +68,16 @@ function App() {
     <br />
     <Card image={image2} title="This is card title 2" body="This is card body with different text"/>
 
-      <CardTwo width={150} height={150}/>
-   
+      {/* Profile and CardText were wrapped in CardTwo component */}
+      <CardTwo>
+        <Profile />
+        <CardText title="Card using props" text="This text is passed from parent component"/>
+      </CardTwo>
+      <br />
+      <TodoList />
    
       <div><Footer /></div>
 
-       
     </div>
    
   )
