@@ -44,14 +44,13 @@
   background-color: bisque;
   padding: 1.5rem;
 }
-.main-nav ul{
-  text-align: center;
-}
-.main-nav li{
+
+.main-nav .link{
   display: inline;
   margin: 1rem;
+  text-decoration: none;
 }
-.main-nav li:hover{
+.main-nav .link:hover{
   color: #61dafb;
   cursor: pointer;
 }
