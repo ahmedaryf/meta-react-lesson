@@ -14,7 +14,7 @@ function TimeComponent() {
   return (
     <div style={{border: "2px gold solid", margin: "10px", padding: "10px", color: "maroon"}}>
       <h2>Clock: {date.toLocaleTimeString()}</h2>
-      {/* <h2>{date.toLocaleTimeString()}</h2> */}
+      
     </div>
   );
 }

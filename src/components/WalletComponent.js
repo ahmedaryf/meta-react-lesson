@@ -3,7 +3,7 @@ import { useReducer } from "react";
 function WalletComponent() {
     const reducer = (state, action) => {
         if(action.type === "ride") return {money: state.money + 10};
-        if(action.type === "fuel" && state.money >=0) return {money: state.money - 30};
+        if(action.type === "fuel") return {money: state.money - 30};
         return new Error();
     }
     
