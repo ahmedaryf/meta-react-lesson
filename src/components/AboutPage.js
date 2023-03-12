@@ -1,4 +1,5 @@
 import React from 'react'
+import List from './List'
 import LogInOut from './LogInOut'
 import TimeTest from './TimeTest'
 
@@ -12,6 +13,8 @@ function AboutPage() {
           <TimeTest />
         </div>
     <LogInOut />
+    <br />
+    <List />
     </div>
   )
 }
