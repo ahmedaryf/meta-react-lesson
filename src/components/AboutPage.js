@@ -2,6 +2,7 @@ import React from 'react'
 import List from './List'
 import LogInOut from './LogInOut'
 import TimeTest from './TimeTest'
+import VideoComponent from './VideoComponent'
 
 function AboutPage() {
   return (
@@ -12,9 +13,11 @@ function AboutPage() {
         <div>
           <TimeTest />
         </div>
-    <LogInOut />
-    <br />
-    <List />
+        <LogInOut />
+        <br />
+        <List />
+        <br />
+        <VideoComponent />
     </div>
   )
 }
